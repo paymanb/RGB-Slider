@@ -30,7 +30,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Okz-iG-L5U">
-                                <rect key="frame" x="14" y="235" width="292" height="27"/>
+                                <rect key="frame" x="14" y="231" width="292" height="31"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="updateBackgroundColor" destination="BYZ-38-t0r" eventType="valueChanged" id="DLJ-rk-PTx"/>
@@ -44,7 +44,7 @@
                                 </connections>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ri8-ht-5kW">
-                                <rect key="frame" x="140" y="227" width="40" height="0.0"/>
+                                <rect key="frame" x="140" y="187" width="40" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQF-yU-lEM">
@@ -52,13 +52,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Open"/>
                                 <connections>
-                                    <segue destination="col-To-mPj" kind="show" id="xWy-Sf-WV3"/>
+                                    <segue destination="col-To-mPj" kind="show" identifier="openColor" id="xWy-Sf-WV3"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Okz-iG-L5U" firstAttribute="top" secondItem="Ri8-ht-5kW" secondAttribute="bottom" constant="8" symbolic="YES" id="8nd-uS-Yel"/>
+                            <constraint firstItem="Okz-iG-L5U" firstAttribute="top" secondItem="Ri8-ht-5kW" secondAttribute="bottom" constant="4" id="8nd-uS-Yel"/>
                             <constraint firstItem="IpG-C3-rAV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bwa-jo-7wC"/>
                             <constraint firstItem="IpG-C3-rAV" firstAttribute="leading" secondItem="XaC-iQ-3PA" secondAttribute="leading" id="J4n-eS-h6i"/>
                             <constraint firstItem="Okz-iG-L5U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JxW-VN-pTi"/>
@@ -68,7 +68,7 @@
                             <constraint firstItem="Okz-iG-L5U" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="U29-9M-QMy"/>
                             <constraint firstItem="Ri8-ht-5kW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="140" id="WY3-W6-7QS"/>
                             <constraint firstItem="XaC-iQ-3PA" firstAttribute="top" secondItem="IpG-C3-rAV" secondAttribute="bottom" constant="8" symbolic="YES" id="cWw-5l-p6m"/>
-                            <constraint firstItem="Ri8-ht-5kW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="163" id="naf-iW-j40"/>
+                            <constraint firstItem="Ri8-ht-5kW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="naf-iW-j40"/>
                             <constraint firstItem="Okz-iG-L5U" firstAttribute="trailing" secondItem="IpG-C3-rAV" secondAttribute="trailing" id="otu-Ig-bHf"/>
                             <constraint firstItem="IpG-C3-rAV" firstAttribute="trailing" secondItem="XaC-iQ-3PA" secondAttribute="trailing" id="tUD-eB-gaE"/>
                         </constraints>
